@@ -2,7 +2,7 @@ version: "2.1"
 services:
   drawio:
     image: jgraph/drawio
-    container_name: draw
+    container_name: drawio
     ports:
       - 8080:8080
     restart: unless-stopped
